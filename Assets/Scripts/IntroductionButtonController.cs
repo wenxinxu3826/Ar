@@ -32,8 +32,8 @@ public class IntroductionButtonController : MonoBehaviour
 
         if (arCardObject != null)
         {
-           // arCardObject.GetComponent<Animator>().Play("CardAnimation");
-           // TTSManager.PlayAudio("汽车是一种交通工具");
+            // arCardObject.GetComponent<Animator>().Play("CardAnimation");
+            TTSManager.PlayAudio(descriptionText.text);
         }
     }
 }
