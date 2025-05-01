@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.9f1c1 (2ad9a3c9b3f3) revision 2808227'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.9f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/xuniAR/Ar/Ar
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50755
+Successfully changed project path to: D:/xuniAR/Ar/Ar
+D:/xuniAR/Ar/Ar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24728] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3484016367 [EditorId] 3484016367 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24728] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3484016367 [EditorId] 3484016367 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 194.04 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 12.26 ms.
+Initialize engine version: 2022.3.9f1c1 (2ad9a3c9b3f3)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.9f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/xuniAR/Ar/Ar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.9f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.115081 seconds.
+- Loaded All Assemblies, in  1.892 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 458 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 2813ms
+	BeginReloadAssembly (846ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (394ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (798ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (418ms)
+			TypeCache.Refresh (416ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (974ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (870ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (680ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.289 seconds
+Refreshing native plugins compatible for Editor in 58.72 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 3132ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (1757ms)
+		LoadAssemblies (1625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (73ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 56.19 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.59 ms.
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (101.9 KB). Loaded Objects now: 3980.
+Memory consumption went from 144.6 MB to 144.5 MB.
+Total: 3.753100 ms (FindLiveObjects: 0.381000 ms CreateObjectMapping: 0.125000 ms MarkObjects: 3.061100 ms  DeleteObjects: 0.185000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1453.351906 seconds.
+  path: Assets/model/bus/Materials/Aero.mat
+  artifactKey: Guid(91c90bb793983af42893b24643915b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/Materials/Aero.mat using Guid(91c90bb793983af42893b24643915b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916cb350f4c07a0d32925fe693a21ca0') in 0.152359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.835216 seconds.
+  path: Assets/model/bus/source/Aero.fbx
+  artifactKey: Guid(6610e502c8711634f9b88152808bbe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/source/Aero.fbx using Guid(6610e502c8711634f9b88152808bbe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d6c0991a0b159d2a8921d85683d3b') in 0.165868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.956836 seconds.
+  path: Assets/model/bus/textures/Aero.png
+  artifactKey: Guid(bf9f42d7cc240e543a899f33f6740be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/textures/Aero.png using Guid(bf9f42d7cc240e543a899f33f6740be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd1c00a6e347d1bc754261612fb9221') in 0.051856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.298472 seconds.
+  path: Assets/model/bus/textures/source
+  artifactKey: Guid(5260b6214e9872940bb94b0443c182d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/textures/source using Guid(5260b6214e9872940bb94b0443c182d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80ea66ec54833d8e765d6e44819c15') in 0.001073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059273 seconds.
+  path: Assets/model/bus/textures/source/fab.fbx
+  artifactKey: Guid(5b6d2b90ac56eff418f33c30b33ad48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/textures/source/fab.fbx using Guid(5b6d2b90ac56eff418f33c30b33ad48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d992e337bb5b04589e4a2b4ccf45323') in 1.110059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 266
+========================================================================
+Received Import Request.
+  Time since last request: 248.103657 seconds.
+  path: Assets/model/train/textures/bottom.jpeg
+  artifactKey: Guid(b6404b9e466d873499a07c19c88c5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/bottom.jpeg using Guid(b6404b9e466d873499a07c19c88c5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a9ce832f539b0c0cd8ff3f152d1d5e') in 0.111097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/model/train/textures/side2.jpeg
+  artifactKey: Guid(f73159a24d9972548a2f6b2750d28b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side2.jpeg using Guid(f73159a24d9972548a2f6b2750d28b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a269b00a88ce20083d32ff9a33f51b6') in 0.064631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/model/train/textures/side1_normal.jpeg
+  artifactKey: Guid(f7388f0a3d08dc34a9d78bec35ed0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side1_normal.jpeg using Guid(f7388f0a3d08dc34a9d78bec35ed0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aebfb9f2733db62c4fab7c214353089') in 0.064958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/model/train/textures/depan_normal.jpeg
+  artifactKey: Guid(a1c2038802753f346b593b01a6a35642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/depan_normal.jpeg using Guid(a1c2038802753f346b593b01a6a35642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943fec668b53d9f032d9a74556a3175b') in 0.087155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/model/train/textures/depan_gloss.jpeg
+  artifactKey: Guid(07bfe2fd5c1ca0c4c92f1aa0ae5806a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/depan_gloss.jpeg using Guid(07bfe2fd5c1ca0c4c92f1aa0ae5806a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d84ff7f039d1550da5136ce1097ab2c') in 0.074139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.314686 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/bottom.jpg
+  artifactKey: Guid(95217ee5329072f44a04fa2e9dd90d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/bottom.jpg using Guid(95217ee5329072f44a04fa2e9dd90d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d91f5529bd61d4ef0553a074254d506') in 0.058277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Train Metro Ginza Line 1000 Japan.fbx
+  artifactKey: Guid(6751c1801ed7bab4b887700d3b82fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Train Metro Ginza Line 1000 Japan.fbx using Guid(6751c1801ed7bab4b887700d3b82fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d273edce3b76c05080a3ab663bfd2c') in 0.437178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 188
+========================================================================
+Received Import Request.
+  Time since last request: 5.137329 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Materials
+  artifactKey: Guid(bbe78b07440358a458f60dbe5f47d445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Materials using Guid(bbe78b07440358a458f60dbe5f47d445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181a8e5fb39195468042af92d8671631') in 0.001080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080457 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Materials/side1.mat
+  artifactKey: Guid(8c3771a52236a5b4a8186154403ca3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/Materials/side1.mat using Guid(8c3771a52236a5b4a8186154403ca3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e51de677ed0d9078b6a0c98e3500599') in 0.026739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 357.709467 seconds.
+  path: Assets/model/airplane/source/Airport_Airplane2/Airport_Airplane2.obj
+  artifactKey: Guid(bde16fc23f68a044783f043d49a8838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/airplane/source/Airport_Airplane2/Airport_Airplane2.obj using Guid(bde16fc23f68a044783f043d49a8838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b598db42f5f91d983812e33e7bd3c1e0') in 0.068753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 143.878068 seconds.
+  path: Assets/Cars/Cars/Models/Cabriolet.fbx
+  artifactKey: Guid(af03f10e9cd02c24898f8c2a22a50d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/Cabriolet.fbx using Guid(af03f10e9cd02c24898f8c2a22a50d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818f62454dc86b2c497b1df58a2456ad') in 0.087470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cars/Cars/Models/StationWagon.fbx
+  artifactKey: Guid(fcfa9bd4ab108ec4583d3022c9821572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/StationWagon.fbx using Guid(fcfa9bd4ab108ec4583d3022c9821572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b037394775ce4139f8750b05f92d430c') in 0.075625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cars/Cars/Models/CabrioletSmooth.fbx
+  artifactKey: Guid(b39c2dbe08109084abe48b46e94ca79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/CabrioletSmooth.fbx using Guid(b39c2dbe08109084abe48b46e94ca79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a59ef0924f824801659f53f391a1e9') in 0.089918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cars/Cars/Models/MultipleBug.fbx
+  artifactKey: Guid(5ddbceb712735b045b53e38093af70a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleBug.fbx using Guid(5ddbceb712735b045b53e38093af70a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc336b31055a3f3b468543596998d23d') in 0.105247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cars/Cars/Models/Truck.fbx
+  artifactKey: Guid(afd8300bf0b87044780895ea2ee45454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/Truck.fbx using Guid(afd8300bf0b87044780895ea2ee45454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118920bdebd83e548d2072e391f00113') in 0.079398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cars/Cars/Models/MultipleSpeeder.fbx
+  artifactKey: Guid(2ddfca5451f1bd94ca0d048a7e0978f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleSpeeder.fbx using Guid(2ddfca5451f1bd94ca0d048a7e0978f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106e038cbc165a68d6783130bf0c38c1') in 0.201586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cars/Cars/Models/MultipleHatchBack.fbx
+  artifactKey: Guid(771edf125098adb4ca0b534bf7f9e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleHatchBack.fbx using Guid(771edf125098adb4ca0b534bf7f9e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17ae86f1476cada17e1aa4be2c1405b') in 0.085352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cars/Cars/Models/MultipleTruck.fbx
+  artifactKey: Guid(6531802709ebebc4e84885f614c2cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleTruck.fbx using Guid(6531802709ebebc4e84885f614c2cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f283af9e0e2c642fb1856d289b4213d') in 0.105467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cars/Cars/Models/SpeederCop.fbx
+  artifactKey: Guid(8bb89fcb0447e9140a45b1cdd13264be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/SpeederCop.fbx using Guid(8bb89fcb0447e9140a45b1cdd13264be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b44458d9c863e640b8365f4db4f4c88') in 0.137522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cars/Cars/Models/MultiplePickUp.fbx
+  artifactKey: Guid(2ed22cd21d7275a45ab6d45b21d16887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultiplePickUp.fbx using Guid(2ed22cd21d7275a45ab6d45b21d16887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f79f60ce91b24eaf4509bffc9d237') in 0.100622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cars/Cars/Models/MultipleVan.fbx
+  artifactKey: Guid(99c4477c616ecfd47b6047eb8873f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleVan.fbx using Guid(99c4477c616ecfd47b6047eb8873f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d68820c69cd62bcf7817c65dcd34fa') in 0.116764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cars/Cars/Models/MultipleStationWagon.fbx
+  artifactKey: Guid(8fb84882107174b45bd8480143b96340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/MultipleStationWagon.fbx using Guid(8fb84882107174b45bd8480143b96340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1311dd4aa187c44806ee88516bb1f9') in 0.082151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cars/Cars/Models/SpaceWagon.fbx
+  artifactKey: Guid(249aedcdda0092b429440c7414a7028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Models/SpaceWagon.fbx using Guid(249aedcdda0092b429440c7414a7028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3fa826b733c3d9270658ef72f57b65') in 0.072360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.665946 seconds.
+  path: Assets/Cars/Cars/Prefabs/MultipleCars/MultipleVan.prefab
+  artifactKey: Guid(5c9df8761ab433c42b19a68bec5235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/MultipleCars/MultipleVan.prefab using Guid(5c9df8761ab433c42b19a68bec5235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a914851511455f7580d501560af0f2') in 0.056027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 1.002476 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/Cabriolet .prefab
+  artifactKey: Guid(5a278cf23483a224596084cf29678502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/Cabriolet .prefab using Guid(5a278cf23483a224596084cf29678502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2fe06c36131738269650067403c495') in 0.145155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/MiniVan.prefab
+  artifactKey: Guid(3c21071ab270042469dca786298e764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/MiniVan.prefab using Guid(3c21071ab270042469dca786298e764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3f093b16a1580a22509e66aa472f83') in 0.051257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/Van.prefab
+  artifactKey: Guid(4317bfd12aa60a94e9ecdb0c320f5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/Van.prefab using Guid(4317bfd12aa60a94e9ecdb0c320f5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f675a5adc8074a708f338bf8c469759') in 0.040466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/SpaceWagon.prefab
+  artifactKey: Guid(be3afc10af39a764583f7142579fdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/SpaceWagon.prefab using Guid(be3afc10af39a764583f7142579fdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605150b336d8d89a41f7a6ca39380d4c') in 0.039356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/Sedan.prefab
+  artifactKey: Guid(cd9bfe3afa0e5f34c976c3656b33f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/Sedan.prefab using Guid(cd9bfe3afa0e5f34c976c3656b33f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da6563e5ffc62ac6e5863577992b312') in 0.038819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cars/Cars/Prefabs/SingeColorCars/StationWagon.prefab
+  artifactKey: Guid(97234ec04fdc01f4fbd1bbd092617b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Cars/Prefabs/SingeColorCars/StationWagon.prefab using Guid(97234ec04fdc01f4fbd1bbd092617b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75cb1d4643dba63eb718f16fd88ea34') in 0.041787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

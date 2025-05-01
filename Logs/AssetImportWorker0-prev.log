@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.9f1c1 (2ad9a3c9b3f3) revision 2808227'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.9f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/xuniAR/Ar/Ar
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50755
+Successfully changed project path to: D:/xuniAR/Ar/Ar
+D:/xuniAR/Ar/Ar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9360] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2760772337 [EditorId] 2760772337 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9360] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2760772337 [EditorId] 2760772337 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 118.96 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 5.97 ms.
+Initialize engine version: 2022.3.9f1c1 (2ad9a3c9b3f3)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.9f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/xuniAR/Ar/Ar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.9f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.049290 seconds.
+- Loaded All Assemblies, in  0.813 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 434 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1623ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (192ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (774ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (599ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.745 seconds
+Refreshing native plugins compatible for Editor in 60.68 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 2615ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (1072ms)
+		LoadAssemblies (1057ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (70ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 60.46 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.65 ms.
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (101.8 KB). Loaded Objects now: 3979.
+Memory consumption went from 142.9 MB to 142.8 MB.
+Total: 4.767300 ms (FindLiveObjects: 0.313100 ms CreateObjectMapping: 0.132900 ms MarkObjects: 4.087800 ms  DeleteObjects: 0.232100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.833316 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f6cced0356ba62c4f8c3f16b5daa909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f6cced0356ba62c4f8c3f16b5daa909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac3db84fed5ceade055324956dc5248') in 0.101758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 454
+========================================================================
+Received Import Request.
+  Time since last request: 1171.054793 seconds.
+  path: Assets/model/helicopter/source/01_ Helicopter/Helicopter3.fbx
+  artifactKey: Guid(1d11a3f8f5ade6e4bb4b932dabddd702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/helicopter/source/01_ Helicopter/Helicopter3.fbx using Guid(1d11a3f8f5ade6e4bb4b932dabddd702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf13a22d9ffbdce0ad4e64ca03a1fdf') in 0.695677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 19.022976 seconds.
+  path: Assets/model/photo/bicycle.jpg
+  artifactKey: Guid(cb43fea4090466249a8e98012e864ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/photo/bicycle.jpg using Guid(cb43fea4090466249a8e98012e864ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0220bb312c9a2cb37b4da3ba46c3b') in 0.080706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/model/photo/ship.jpg
+  artifactKey: Guid(d5f7b9ca388208240bf5e8d42ecc4a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/photo/ship.jpg using Guid(d5f7b9ca388208240bf5e8d42ecc4a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010ad3eada9c81fd1d97d4c599fd7b46') in 0.056899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/photo/scooter.jpg
+  artifactKey: Guid(3cb6a6f56d29de04f856df175256ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/photo/scooter.jpg using Guid(3cb6a6f56d29de04f856df175256ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2147c2097e8f59eb55fae0758c2fe7') in 0.060266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/model/photo/helicopter.jpg
+  artifactKey: Guid(746e6613bf932b945b69fdbefb43593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/photo/helicopter.jpg using Guid(746e6613bf932b945b69fdbefb43593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbcd222a1e64860b676294696973bee') in 0.051408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 72.914248 seconds.
+  path: Assets/model/bus/textures/source/fab.mat
+  artifactKey: Guid(b2a2d3f04b5434e4da3832cc95be1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/bus/textures/source/fab.mat using Guid(b2a2d3f04b5434e4da3832cc95be1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533c3ef49338fb4bebc7c5ed6af21319') in 0.294619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 248.917432 seconds.
+  path: Assets/model/train/textures/depan.jpeg
+  artifactKey: Guid(00d3b6fcbfcc01647a1894c996577416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/depan.jpeg using Guid(00d3b6fcbfcc01647a1894c996577416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f8d4d719135e3e3d6eb1808abc05ce') in 0.128881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/model/train/textures/side1.jpeg
+  artifactKey: Guid(12a91e6c9418f214d949a25a2c91d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side1.jpeg using Guid(12a91e6c9418f214d949a25a2c91d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81d2f8d72223bedf617f25c562575d0') in 0.074597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/model/train/textures/side1_gloss.jpeg
+  artifactKey: Guid(a64c3d61cac0f714bbe451fddc3efd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side1_gloss.jpeg using Guid(a64c3d61cac0f714bbe451fddc3efd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6aa77dc45d3c4fe64412925beffd94') in 0.073100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/model/train/textures/side2_gloss.jpeg
+  artifactKey: Guid(0d975972e292b6f4dbed55d48879346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side2_gloss.jpeg using Guid(0d975972e292b6f4dbed55d48879346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a5f5ccbabded757d952a67837d3ab') in 0.067588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/model/train/textures/side2_normal.jpeg
+  artifactKey: Guid(08188d2636e8bb44995bcab7cac46128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/textures/side2_normal.jpeg using Guid(08188d2636e8bb44995bcab7cac46128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6195c400b190fd9fcb122270356cd8e3') in 0.059651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.313082 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan.jpg
+  artifactKey: Guid(cd686f1adf673f943810fb5b0db4c75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan.jpg using Guid(cd686f1adf673f943810fb5b0db4c75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979464915175987ab647db6c6e546d02') in 0.061230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1.jpg
+  artifactKey: Guid(9edaa68b793ca564e9840a3d726b2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1.jpg using Guid(9edaa68b793ca564e9840a3d726b2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ab83e5a3781da5255ca854073e0acf') in 0.045888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan_gloss.jpg
+  artifactKey: Guid(51e4853653b30a9489ee5c56877b414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan_gloss.jpg using Guid(51e4853653b30a9489ee5c56877b414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2241679e8c4cbf42c7c06925d8ee7aa6') in 0.050108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2.jpg
+  artifactKey: Guid(16011a326b92317409eb8b2866988339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2.jpg using Guid(16011a326b92317409eb8b2866988339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0909eb0029baac700f5e60df7d667f6') in 0.043499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1_gloss.jpg
+  artifactKey: Guid(7eb05f2f5e3aef846ad0f06a5fe975b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1_gloss.jpg using Guid(7eb05f2f5e3aef846ad0f06a5fe975b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b9bf83c41a9b3ab1b3777802618b15') in 0.043522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2_normal.jpg
+  artifactKey: Guid(e7b6114007f4f2c41acb2b91042a94b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2_normal.jpg using Guid(e7b6114007f4f2c41acb2b91042a94b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a0a7006f841c0d5bde7f196aabd210') in 0.041502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1_normal.jpg
+  artifactKey: Guid(8c5cda8a8fa9ac24c937914809c16586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side1_normal.jpg using Guid(8c5cda8a8fa9ac24c937914809c16586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8e0f96a817c659ac4e1086524ce870') in 0.041640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan_normal.jpg
+  artifactKey: Guid(72ce4b822fa7b7e4a8459b70a1a6b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/depan_normal.jpg using Guid(72ce4b822fa7b7e4a8459b70a1a6b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f82031652b19f2075533e8e7bda8a9') in 0.051454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2_gloss.jpg
+  artifactKey: Guid(0a3f26fb157758b4989c8da9b77f20b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/train/source/Train Metro Ginza Line 1000 Japan/side2_gloss.jpg using Guid(0a3f26fb157758b4989c8da9b77f20b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec7d8059b367d6dec5043849fe036e') in 0.042613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

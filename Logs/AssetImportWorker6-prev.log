@@ -1,0 +1,591 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.9f1c1 (2ad9a3c9b3f3) revision 2808227'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.9f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/xuniAR/Ar/Ar
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50755
+Successfully changed project path to: D:/xuniAR/Ar/Ar
+D:/xuniAR/Ar/Ar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 940243121 [EditorId] 940243121 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 940243121 [EditorId] 940243121 [Version] 1048832 [Id] WindowsEditor(7,抠鼻屎的小熊) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 128.77 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 7.11 ms.
+Initialize engine version: 2022.3.9f1c1 (2ad9a3c9b3f3)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.9f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/xuniAR/Ar/Ar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.9f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.9f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.3.9f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.057788 seconds.
+- Loaded All Assemblies, in  1.014 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 459 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1875ms
+	BeginReloadAssembly (434ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (219ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (820ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (629ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.705 seconds
+Refreshing native plugins compatible for Editor in 69.02 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 2624ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (1069ms)
+		LoadAssemblies (1015ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (84ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 61.10 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.71 ms.
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (101.9 KB). Loaded Objects now: 3980.
+Memory consumption went from 144.6 MB to 144.5 MB.
+Total: 3.884100 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.141800 ms MarkObjects: 3.198300 ms  DeleteObjects: 0.180900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2332.613546 seconds.
+  path: Assets/model/motor/source
+  artifactKey: Guid(319b34b872641804baa0d3456a41a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/motor/source using Guid(319b34b872641804baa0d3456a41a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1c29f91241b906c39590c3ab810e44') in 0.002783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075722 seconds.
+  path: Assets/model/motor/source/d17ac3a2a5c2496d9e4b07193602a780.blend
+  artifactKey: Guid(a2a03b50d4e5d174386b7a178e91d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/motor/source/d17ac3a2a5c2496d9e4b07193602a780.blend using Guid(a2a03b50d4e5d174386b7a178e91d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d2ec824f7e812299f0a2583ee50bd3') in 0.167501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 8.920182 seconds.
+  path: Assets/model/motor/textures
+  artifactKey: Guid(2e14f522f3c0005479fe12d78d5dee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/motor/textures using Guid(2e14f522f3c0005479fe12d78d5dee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382ae11130df17785b94a4c8f7fcecdd') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063969 seconds.
+  path: Assets/model/motor/textures/4ec175d0cecf4fe69630e3de895929d2.png
+  artifactKey: Guid(38450cc87f898bb4894d9ba3f27aca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/motor/textures/4ec175d0cecf4fe69630e3de895929d2.png using Guid(38450cc87f898bb4894d9ba3f27aca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c5cea7184b93c95923bd101f691f3b') in 0.177612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/motor/textures/merc.jpeg
+  artifactKey: Guid(022f2e2885543cc44b382b742de4215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/motor/textures/merc.jpeg using Guid(022f2e2885543cc44b382b742de4215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dab54d28c8c0ca45ef9090f348d8849') in 0.077636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 242.650334 seconds.
+  path: Assets/model/postapo-motorcycle-low
+  artifactKey: Guid(a64f18f36081493408617081d60667f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low using Guid(a64f18f36081493408617081d60667f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba50b1cda0ce9fff57c104f71333af8') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.764176 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low
+  artifactKey: Guid(e68f580dc8c8c6b4b93158868317acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low using Guid(e68f580dc8c8c6b4b93158868317acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16004dd8870290cf5e66d1ed499c285') in 0.001105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.341627 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/source
+  artifactKey: Guid(ab36a5a05be990a4f83609404f8e78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/source using Guid(ab36a5a05be990a4f83609404f8e78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad09f6c4919c7b12a1e74157e3b4b2dc') in 0.000944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102776 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/source/motur_lower.fbx
+  artifactKey: Guid(4b8cc8d4712fc4f4db443deab1c0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/source/motur_lower.fbx using Guid(4b8cc8d4712fc4f4db443deab1c0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b78d19a553fad3c252a03d11ca146') in 3.641792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 86.621607 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_handlebar_BaseColor.png
+  artifactKey: Guid(3a221f5592c8d9f45827b895310e3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_handlebar_BaseColor.png using Guid(3a221f5592c8d9f45827b895310e3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52d1ccd9ae0a926496df0d32edcac89') in 0.144909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_tyl_Normal.png
+  artifactKey: Guid(8395bd9242482fd4e9adbd22349936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_tyl_Normal.png using Guid(8395bd9242482fd4e9adbd22349936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6422946973e4f1ee3ca7b1d530d95') in 0.125729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_naboje_bok_2_Metallic.png
+  artifactKey: Guid(88bc6a90fa695ec45996bde3ee389423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_naboje_bok_2_Metallic.png using Guid(88bc6a90fa695ec45996bde3ee389423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b78370044d2ff20f89fce5e7df0401') in 0.101028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_Roughness.png
+  artifactKey: Guid(1f262b50df158084b94fba94a58d42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_Roughness.png using Guid(1f262b50df158084b94fba94a58d42c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74882d5a97a82d6db5dd505ff987867e') in 0.093349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_naboje_bok_2_Roughness.png
+  artifactKey: Guid(a600af2d921c81840955a1699ee95a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_naboje_bok_2_Roughness.png using Guid(a600af2d921c81840955a1699ee95a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c9f0f8c21797c62977d4733cfab675') in 0.091577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_lusterka_Roughness.png
+  artifactKey: Guid(2747279ca725a2a47883fd85512b7818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_lusterka_Roughness.png using Guid(2747279ca725a2a47883fd85512b7818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28b0bff99a31318d4cc573563b81311') in 0.103420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_BaseColor.png
+  artifactKey: Guid(e07e776b8b33dbc44b3295b366371c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_BaseColor.png using Guid(e07e776b8b33dbc44b3295b366371c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b083f9bf21416eab487a2770ba219f81') in 0.106371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_Metallic.png
+  artifactKey: Guid(e76723da3478a584b9b0fa6045fbf3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_kierownica_Metallic.png using Guid(e76723da3478a584b9b0fa6045fbf3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e494acf1504a34d79ff0e03930551b6') in 0.098341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_lusterka_Metallic.png
+  artifactKey: Guid(67620ad619a67f94a9c5a0aa52dc30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_lusterka_Metallic.png using Guid(67620ad619a67f94a9c5a0aa52dc30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2157be70a3ea6b45b9a5077cef3fa777') in 0.129712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_owiewki_Roughness.png
+  artifactKey: Guid(deebce7316dad7b49ace263d620aca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_owiewki_Roughness.png using Guid(deebce7316dad7b49ace263d620aca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab262d00bd73eff2dd1432a0a22c9e6') in 0.090051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_przod_BaseColor.png
+  artifactKey: Guid(873c0283f3270a1498c2d2e2d87ec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_przod_BaseColor.png using Guid(873c0283f3270a1498c2d2e2d87ec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f3a61f3736fc855863cc4ffbc1375') in 0.100969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_siedzisko1_BaseColor.png
+  artifactKey: Guid(e43baa5f0e1ee0d4586bff069674734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_siedzisko1_BaseColor.png using Guid(e43baa5f0e1ee0d4586bff069674734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4a17f8a39c6836174357f845f1d79') in 0.099709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Metallic.png
+  artifactKey: Guid(09b97ba055caa244693ce5e7ac67733c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Metallic.png using Guid(09b97ba055caa244693ce5e7ac67733c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae148340c9061ca50985bc307edd4acc') in 0.096183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_karabiny_bok_Roughness.png
+  artifactKey: Guid(4a4d2cd0bfdabaf4fa5bc35ae4992553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_karabiny_bok_Roughness.png using Guid(4a4d2cd0bfdabaf4fa5bc35ae4992553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118988b6a06a83d6290a5825c5c6dba5') in 0.102135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_tyl_Roughness.png
+  artifactKey: Guid(93695f9293ed4e6499e7649fd4885e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_tyl_Roughness.png using Guid(93695f9293ed4e6499e7649fd4885e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f6bda002d4c5cec97bf911579aca4e') in 0.141128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_BaseColor.png
+  artifactKey: Guid(316fbb3d01959c14dbf9dbb341691738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_BaseColor.png using Guid(316fbb3d01959c14dbf9dbb341691738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44390004ff02637c1070ae671372b85') in 0.106431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_siedzisko1_Normal.png
+  artifactKey: Guid(cf97fec244fb97e46b0e0463da3ceecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_siedzisko1_Normal.png using Guid(cf97fec244fb97e46b0e0463da3ceecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b46c716d1bb7dd7257a25d9f3d168') in 0.115135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Roughness.png
+  artifactKey: Guid(016a6bb1ad249634bb21118db59c200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Roughness.png using Guid(016a6bb1ad249634bb21118db59c200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11a037ca4a555604077ca9eee77724') in 0.111947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Normal.png
+  artifactKey: Guid(1e402b96de2ca144c877582f6cb40c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_rama_przod_Normal.png using Guid(1e402b96de2ca144c877582f6cb40c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54447f388ac883b9da8f421f387087ad') in 0.116856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_karabiny_bok_BaseColor.png
+  artifactKey: Guid(053096cee4291bb4a91be1bd50a393a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_karabiny_bok_BaseColor.png using Guid(053096cee4291bb4a91be1bd50a393a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f692342daaed6b6bbd1f581817332d5') in 0.090787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_handlebar_Normal.png
+  artifactKey: Guid(885a8584580eafb408ca479ed7c69f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/base_low_handlebar_Normal.png using Guid(885a8584580eafb408ca479ed7c69f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282f5c1ae8739fa19ebab0158bdd1dd') in 0.082174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.456753 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_wydechy_motur_Metallic.png
+  artifactKey: Guid(7fbe56c88e2f9584291bd0d1db1b4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/boki_low_wydechy_motur_Metallic.png using Guid(7fbe56c88e2f9584291bd0d1db1b4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdede6a8e45c850e5a490941651a101b') in 0.119631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_laserki_BaseColor.png
+  artifactKey: Guid(92a3b9fa011ce5544a6b2ecf5962fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_laserki_BaseColor.png using Guid(92a3b9fa011ce5544a6b2ecf5962fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351d93fdb8bd6b5e0542a1d045a97937') in 0.105820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_lufa_kolo_Normal.png
+  artifactKey: Guid(a3192cd3e0694ff4584e6d37ffeb05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_lufa_kolo_Normal.png using Guid(a3192cd3e0694ff4584e6d37ffeb05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4504957c99085b570764ce64a6eb03') in 0.096845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/ENGINE_LOW_tloki_BaseColor.png
+  artifactKey: Guid(49b89f36f81ac734ea4e5d3e707e6b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/ENGINE_LOW_tloki_BaseColor.png using Guid(49b89f36f81ac734ea4e5d3e707e6b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae463317975653b8e83c07ceda05475') in 0.077433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_Metallic.png
+  artifactKey: Guid(d8303541223b96e4c93ea16c4acca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_Metallic.png using Guid(d8303541223b96e4c93ea16c4acca3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec728e08ff773944339a23158a9a64de') in 0.059696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_BaseColor.png
+  artifactKey: Guid(3a90e6a3242b8ab489af58032259c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_BaseColor.png using Guid(3a90e6a3242b8ab489af58032259c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4030048b25978f49d612643b158de42a') in 0.078070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_Roughness.png
+  artifactKey: Guid(7190ae89acc8ca04ea025de7c829257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_Roughness.png using Guid(7190ae89acc8ca04ea025de7c829257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a008e3cf2f8a8852ed6025f030cc66') in 0.093939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_BaseColor.png
+  artifactKey: Guid(a485a8dc7c45e4c48a5be675c7fc6319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_kabelki3_BaseColor.png using Guid(a485a8dc7c45e4c48a5be675c7fc6319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde830ea589293119de0383960b7fd69') in 0.081526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/gauges_low_gauges_Roughness.png
+  artifactKey: Guid(33edf69a17f29f143a8db8394737f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/gauges_low_gauges_Roughness.png using Guid(33edf69a17f29f143a8db8394737f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c001ea1c929ae02d67749b7672a5663') in 0.083447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_lufa_kolo_Roughness.png
+  artifactKey: Guid(582c3e8ac81bb504ba37eb05886056a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_lufa_kolo_Roughness.png using Guid(582c3e8ac81bb504ba37eb05886056a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed0d653e3f0e852789a07b8acacf8a2') in 0.080746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_sruby_BaseColor.png
+  artifactKey: Guid(821947b153253ec4c998e0e57e376f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_sruby_BaseColor.png using Guid(821947b153253ec4c998e0e57e376f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f3b7857819576279a2b48ef3574f1f') in 0.079205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/ENGINE_LOW_tloki_Roughness.png
+  artifactKey: Guid(42e010c108cc80747a271788ae297b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/ENGINE_LOW_tloki_Roughness.png using Guid(42e010c108cc80747a271788ae297b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee88d1e1e0b4fafbe08b93f45538e206') in 0.088947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/gauges_low_gauges_BaseColor.png
+  artifactKey: Guid(230e50f8d707e744c8919c7a488587d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/gauges_low_gauges_BaseColor.png using Guid(230e50f8d707e744c8919c7a488587d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8249ce7fe39e46e2e897fcd9f74de') in 0.080144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_Metallic.png
+  artifactKey: Guid(e70ddb49032933346b567ab644415ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_Metallic.png using Guid(e70ddb49032933346b567ab644415ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c15b8535ef746b6e899bef5d7dc79fc') in 0.058449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_Roughness.png
+  artifactKey: Guid(9f4519a7b663d294da859e61b05c66aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/bron_low_naboje_Roughness.png using Guid(9f4519a7b663d294da859e61b05c66aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bdbcac85d2903933e02949e5c304e1') in 0.082630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.920514 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_sruby_Metallic.png
+  artifactKey: Guid(9a3a73fa53ab7aa4c84abc3a2435d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kabelki_high_sruby_Metallic.png using Guid(9a3a73fa53ab7aa4c84abc3a2435d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e956ec7dfdbeae7fcae1ce8409d7f') in 0.103587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_felgi_Roughness.png
+  artifactKey: Guid(21b85f4cbe9ff4740b4e523e1effe2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_felgi_Roughness.png using Guid(21b85f4cbe9ff4740b4e523e1effe2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f7362ecc3675cb7543f76b7dd894c1') in 0.088819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_opona_Roughness.png
+  artifactKey: Guid(c8c5e8467c5e7904f92c2b422c4efe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_opona_Roughness.png using Guid(c8c5e8467c5e7904f92c2b422c4efe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9ff9cbc7dd01b9e906cec1f13fbbe') in 0.101695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_felgi_Normal.png
+  artifactKey: Guid(7db765a1c4b4bc24b888d9e4adc3a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_felgi_Normal.png using Guid(7db765a1c4b4bc24b888d9e4adc3a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e1f571fcfa5a584989ef1d60679187') in 0.091426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_opona_BaseColor.png
+  artifactKey: Guid(6d072409ff5fd124caa8e3eaf28edea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/postapo-motorcycle-low/postapo-motorcycle-low/textures/kolo_low_opona_BaseColor.png using Guid(6d072409ff5fd124caa8e3eaf28edea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4c29bff44825b3af11fb69e87319a') in 0.067389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

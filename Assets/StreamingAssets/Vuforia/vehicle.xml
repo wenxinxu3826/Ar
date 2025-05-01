@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="train" size="1.000000 0.750427" />
+    <ImageTarget name="bus" size="1.000000 0.750427" />
+    <ImageTarget name="airplane" size="1.000000 0.750427" />
+    <ImageTarget name="motor" size="1.000000 0.750769" />
+    <ImageTarget name="bicycle" size="1.000000 0.750427" />
+    <ImageTarget name="car" size="1.000000 0.749573" />
+    <ImageTarget name="helicopter" size="1.000000 0.750000" />
+    <ImageTarget name="ship" size="1.000000 0.750274" />
+    <ImageTarget name="scooter" size="1.000000 0.750000" />
+    <ImageTarget name="trunk" size="1.000000 0.559829" />
+  </Tracking>
+</QCARConfig>
