@@ -3,3 +3,4 @@ Packages/com.ptc.vuforia.engine-11.0.4.tgz filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.ptc.vuforia.engine@053984073e9f/Vuforia/Plugins/OSXUniversal/universal/libVuforiaEngine.dylib filter=lfs diff=lfs merge=lfs -text
 Assets/model/**/*.fbx filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
+Assets/model/postapo-motorcycle-low[[:space:]]1/source/motur_lower.fbx filter=lfs diff=lfs merge=lfs -text
